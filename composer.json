@@ -1,0 +1,11 @@
+{
+    "name": "arpm/arpm",
+    "type": "project",
+    "description": "The skeleton application",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": ["app/app.php"]
+    }
+}
